@@ -1,17 +1,18 @@
 <h1 align="center">Team Profile Generator</h1>
 
   <p align="center">
-    The Team Profile Generator is a efficicent way to generate a report that shows any given employees (Manager, Engineer and Intern) within a firm. This Command Line Interface prompt allows a user to input their working staff, whom of which are then outputted as their own card in a fully styled HTML and CSS webpage. Whilst the templates for the styling and landing page don't change - the content is dynamically generated into pure html which in turn is displayed as unique cards within the doucment each of which have a corresponding attribute and background image depending on the position that employee holds. 
+    The Team Profile Generator is a efficient way to generate a report that shows any given employees (Manager, Engineer and Intern) within a firm. This Command Line Interface prompt allows a user to input their working staff, whom of which are then outputted as their own card in a fully styled HTML and CSS webpage. Whilst the templates for the styling and landing page don't change - the content is dynamically generated into pure html which in turn is displayed as unique cards within the document each of which have a corresponding attribute and background image depending on the position that employee holds. 
     <br />   <br />
     <a href="https://github.com/TomSouthwick/Team-Profile-Generator.git"><strong>Explore the repo »</strong></a>
     <br />
     <br />
+    ·
+    <a href="https://github.com/TomSouthwick/Team-Profile-Generator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/TomSouthwick/Team-Profile-Generator/issues">Request Feature</a>
     <a href="">View Demo</a>
-    ![Alt Text](assets/assets/2022-01-05 12.29.50.gif)
-    ·
-    <a href="https://github.com/TomSouthwick/Team-Profile-Generator.git/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/TomSouthwick/Team-Profile-Generator.git/issues">Request Feature</a>
+    
+    ![Alt Text](https://github.com/TomSouthwick/Team-Profile-Generator/blob/main/assets/demo.gif)
   </p>
 </div>
 
