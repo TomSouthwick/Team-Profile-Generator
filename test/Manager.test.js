@@ -10,7 +10,7 @@ describe("Manager", () => {
       officeNumber
     );
 
-    expect(manager.officeNumber()).toEqual(officeNumber);
+    expect(manager.officeNumber).toEqual(officeNumber);
   });
 
   it("getRole method", () => {

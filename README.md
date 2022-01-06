@@ -16,7 +16,7 @@
 <h3 align="center">Team Profile Generator</h3>
 
   <p align="center">
-    A simple CLI app that dynamically creates a fully styled html element with team members from an orgnisation. This output can be viewed in the browser. 
+    A simple CLI app that dynamically creates a fully styled html element with team members from an orgnisation. This output can be viewed in the browser. The class structure is tested using Jest
     <br />
     <a href="https://github.com/TomSouthwick/Team-Profile-Generator"><strong>Explore the docs »</strong></a>
     <br />
@@ -53,7 +53,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -82,6 +81,7 @@ This project is designed to be able to track employees throughout an organisatio
 - [Node.js](https://nodejs.org/en/)
 - [npm inquirer](https://www.npmjs.com/package/inquirer)
 - [Javascript](https://www.javascript.com/)
+- [Jest.js](https://jestjs.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -109,6 +109,10 @@ Ensure that VS Code has the required languages inc. JS, HTML and CSS with the re
    ```sh
    node index.js
    ```
+4. Run jest
+   ```sh
+   npm run test
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -116,7 +120,7 @@ Ensure that VS Code has the required languages inc. JS, HTML and CSS with the re
 
 ## Usage
 
-A user will be promoted to add in their manager and any other respective colleagues that they work with. Once they've completed all entries, the user can open the output folder, and `team.html` in the browser to see their team displayed own their own unique cards.
+A user will be promoted to add in their manager and any other respective colleagues that they work with. Once they've completed all entries, the user can open the output folder, and `team.html` in the browser to see their team displayed own their own unique cards. Make sure you run a test after generating your content to ensure that all the clases respective fields have been put in and have called accordingly.
 
 _For more examples, please refer to the [Documentation](https://github.com/TomSouthwick/Team-Profile-Generator)_
 
@@ -127,9 +131,11 @@ _For more examples, please refer to the [Documentation](https://github.com/TomSo
 ## Roadmap
 
 - [] Creating a functioning inquirer prompt.
-- [] Creating and extending classes as a property
-- [] Linking answers into a dynamic html element
+- [] Creating and extending classes as a property.
+- [] Linking answers into a dynamic html element.
   - [] html generator is vanilla and does not use any frameworks.
+- [] Creating and writing testing methods.
+  - [] Passing all the testing methods.
 
 See the [open issues](https://github.com/TomSouthwick/Team-Profile-Generator/issues) for a full list of proposed features (and known issues).
 
