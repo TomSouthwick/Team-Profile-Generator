@@ -22,6 +22,8 @@
     <br />
     <br />
     ·
+    <a href="https://youtu.be/2JY0Rd7fpaw">View Demo</a>
+    ·
     <a href="https://github.com/TomSouthwick/Team-Profile-Generator/issues">Report Bug</a>
     ·
     <a href="https://github.com/TomSouthwick/Team-Profile-Generator/issues">Request Feature</a>
@@ -69,7 +71,7 @@
 
  <br />
 
-<img src="assets/screenshot2.png" width="100%" height="550">
+<img src="assets/screenshot2.png" width="100%" height="750">
  <br />
 
 This project is designed to be able to track employees throughout an organisation. It is designed that a manager can print out their employee list onto a html document that is styled efficiently with CSS. Each type of employee, be it Intern, Engineer or manager has a different image and attribute associated with it. This is a really easy way to differentiate which employees are who, and their role within a firm.
@@ -130,12 +132,12 @@ _For more examples, please refer to the [Documentation](https://github.com/TomSo
 
 ## Roadmap
 
-- [] Creating a functioning inquirer prompt.
-- [] Creating and extending classes as a property.
-- [] Linking answers into a dynamic html element.
-  - [] html generator is vanilla and does not use any frameworks.
-- [] Creating and writing testing methods.
-  - [] Passing all the testing methods.
+- ✅ Creating a functioning inquirer prompt.
+- ✅ Creating and extending classes as a property.
+- ✅ Linking answers into a dynamic html element.
+  - ✅ html generator is vanilla and does not use any frameworks.
+- ✅ Creating and writing testing methods.
+  - ✅ Passing all the testing methods.
 
 See the [open issues](https://github.com/TomSouthwick/Team-Profile-Generator/issues) for a full list of proposed features (and known issues).
 
